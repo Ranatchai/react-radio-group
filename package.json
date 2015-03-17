@@ -2,7 +2,7 @@
   "name": "react-radio-group",
   "version": "1.0.0",
   "description": "A group of radio buttons for React",
-  "main": "index.js",
+  "main": "react-radiogroup.js",
   "scripts": {
     "test": "echo \"LOL EVERYTHING IS FINE\"",
     "prepublish": "jsx index.jsx > index.js"

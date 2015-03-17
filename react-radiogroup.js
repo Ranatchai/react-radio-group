@@ -76,3 +76,4 @@ var RadioGroup = React.createClass({displayName: 'RadioGroup',
     return null;
   }
 });
+module.exports = RadioGroup;
