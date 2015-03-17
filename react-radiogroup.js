@@ -31,7 +31,9 @@ var RadioGroup = React.createClass({displayName: 'RadioGroup',
     // the tag and it'll be done here
     var $radios = this.getRadios();
     for (var i = 0, length = $radios.length; i < length; i++) {
-      $radios[i].setAttribute('name', this.props.name);
+      if (!$radios[i].hasAttribute('name')) {
+        $radios[i].setAttribute('name', this.props.name);
+      }
     }
   },
 
